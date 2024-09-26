@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://www.example.com/ghibli-background.jpg'); /* Replace with your Ghibli-themed background */
+    background-size: cover;
+    font-family: 'GhibliFont', sans-serif; /* Use a whimsical font */
+    color: white;
+    text-align: center;
+}
+
+.card-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 100px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFB6C1; /* Light pink */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Hot pink */
+}
